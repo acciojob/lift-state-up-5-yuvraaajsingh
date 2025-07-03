@@ -6,6 +6,7 @@ function Input(props) {
     }
   return (
     <div>
+        <form >
         <label htmlFor="userName">Username:</label>
         <input type="text" id='userName' required/>
         <br />
@@ -15,6 +16,7 @@ function Input(props) {
         <br />
         <br />
         <button type="submit" onClick={handleClick}>Login</button>
+        </form>
     </div>
   )
 }
